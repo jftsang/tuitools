@@ -1,6 +1,6 @@
 from jsonschema import validate
 
-from interacttools import multi_input_dialog
+from tuitools import multi_input_dialog
 
 
 def _example():

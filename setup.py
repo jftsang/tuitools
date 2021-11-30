@@ -7,13 +7,13 @@ def get_requirements():
 
 
 setup(
-    name='interacttools',
+    name='tuitools',
     version='0.0',
     description='Templates for interactive input',
     author='J. M. F. Tsang',
     author_email='j.m.f.tsang@cantab.net',
-    url='https://github.com/jftsang/interacttools',
+    url='https://github.com/jftsang/tuitools',
     packages=find_packages(),
-    entry_points={'console_scripts': ['interacttools=interacttools._example']},
-    requirements=get_requirements()
+    entry_points={'console_scripts': ['tuitools=tuitools._example']},
+    setup_requires=get_requirements()
 )
